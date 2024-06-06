@@ -1,113 +1,121 @@
+Here's an HTML representation of the different types of businesses:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Business Directory</title>
+    <title>Types of Businesses</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
             padding: 0;
-            background-color: #f9f9f9;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: #fff;
-            padding: 1em;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        .container {
-            padding: 2em;
-        }
-        .search-bar {
-            margin-bottom: 2em;
-            text-align: center;
-        }
-        .search-bar input[type="text"] {
-            width: 60%;
-            padding: 0.5em;
-            font-size: 1em;
-        }
-        .search-bar button {
-            padding: 0.5em 1em;
-            font-size: 1em;
-        }
-        .business-listing {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1em;
-            justify-content: space-around;
-        }
-        .business {
-            background: #fff;
-            padding: 1em;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 30%;
-            text-align: center;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        ul li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Local Business Directory</h1>
-    </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#categories">Categories</a>
-        <a href="#add-business">Add Business</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <div class="search-bar">
-            <input type="text" placeholder="Search for businesses...">
-            <button>Search</button>
-        </div>
-        <section class="business-listing">
-            <div class="business">
-                <h2>Business 1</h2>
-                <p>Category: Retail</p>
-                <p>Location: 123 Main St.</p>
-                <p>Contact: (555) 123-4567</p>
-            </div>
-            <div class="business">
-                <h2>Business 2</h2>
-                <p>Category: Food & Beverage</p>
-                <p>Location: 456 Elm St.</p>
-                <p>Contact: (555) 234-5678</p>
-            </div>
-            <div class="business">
-                <h2>Business 3</h2>
-                <p>Category: Services</p>
-                <p>Location: 789 Oak St.</p>
-                <p>Contact: (555) 345-6789</p>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Local Business Directory</p>
-    </footer>
+    <h1>Types of Businesses</h1>
+
+    <h2>By Industry</h2>
+    <ul>
+        <li>Agriculture and Mining
+            <ul>
+                <li>Farming</li>
+                <li>Mining</li>
+                <li>Forestry</li>
+                <li>Fishing</li>
+            </ul>
+        </li>
+        <li>Manufacturing
+            <ul>
+                <li>Food and Beverage</li>
+                <li>Textile</li>
+                <li>Electronics</li>
+                <li>Automotive</li>
+            </ul>
+        </li>
+        <li>Retail and Wholesale
+            <ul>
+                <li>Grocery Stores</li>
+                <li>Clothing Stores</li>
+                <li>Wholesale Distributors</li>
+            </ul>
+        </li>
+        <li>Services
+            <ul>
+                <li>Hospitality (Hotels, Restaurants)</li>
+                <li>Healthcare (Hospitals, Clinics)</li>
+                <li>Education (Schools, Universities)</li>
+                <li>Financial Services (Banks, Insurance)</li>
+                <li>Legal Services (Law Firms)</li>
+            </ul>
+        </li>
+        <li>Technology
+            <ul>
+                <li>Software Development</li>
+                <li>IT Services</li>
+                <li>Telecommunications</li>
+                <li>Biotechnology</li>
+            </ul>
+        </li>
+        <li>Construction
+            <ul>
+                <li>Residential Building</li>
+                <li>Commercial Building</li>
+                <li>Infrastructure Development</li>
+            </ul>
+        </li>
+        <li>Transportation and Logistics
+            <ul>
+                <li>Freight and Shipping</li>
+                <li>Public Transportation</li>
+                <li>Warehousing</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>By Ownership Structure</h2>
+    <ul>
+        <li>Sole Proprietorship</li>
+        <li>Partnership</li>
+        <li>Corporation</li>
+        <li>Limited Liability Company (LLC)</li>
+        <li>Cooperative</li>
+    </ul>
+
+    <h2>By Size</h2>
+    <ul>
+        <li>Small Business</li>
+        <li>Medium Business</li>
+        <li>Large Business</li>
+    </ul>
+
+    <h2>By Purpose</h2>
+    <ul>
+        <li>For-Profit Business</li>
+        <li>Non-Profit Organization</li>
+        <li>Social Enterprise</li>
+    </ul>
+
+    <h2>By Legal Structure</h2>
+    <ul>
+        <li>Franchise</li>
+        <li>Joint Venture</li>
+        <li>Public Sector Enterprise</li>
+    </ul>
 </body>
 </html>
+```
+
+You can copy and paste this code into an HTML file to view it in a web browser. It lists the types of businesses under various categories with nested lists for better organization.
