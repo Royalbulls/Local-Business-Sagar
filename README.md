@@ -1,6 +1,3 @@
-Here's an HTML representation of the different types of businesses:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,6 +113,3 @@ Here's an HTML representation of the different types of businesses:
     </ul>
 </body>
 </html>
-```
-
-You can copy and paste this code into an HTML file to view it in a web browser. It lists the types of businesses under various categories with nested lists for better organization.
